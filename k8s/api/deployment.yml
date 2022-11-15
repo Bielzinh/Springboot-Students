@@ -38,4 +38,3 @@ spec:
     - port: 8080
   selector:
     app.kubernetes.io/name: students-api
-    app.kubernetes.io/name: mysql
