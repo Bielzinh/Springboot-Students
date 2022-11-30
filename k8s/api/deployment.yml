@@ -36,5 +36,8 @@ spec:
   type: ClusterIP
   ports:
     - port: 8080
+      targetPort: 8080
+      protocol: TCP
+  type: NodePort
   selector:
     app.kubernetes.io/name: students-api
